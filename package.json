@@ -1,0 +1,23 @@
+{
+    "name": "simple-be",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "tsc && node dist/src/index"
+    },
+    "keywords": [],
+    "author": "",
+    "devDependencies": {
+        "@types/node": "^20.12.10",
+        "prettier": "^3.2.5",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^2.2.6",
+        "@types/express": "^4.17.21",
+        "body-parser": "^1.20.2",
+        "express": "^4.19.2"
+    },
+    "license": "MIT"
+}

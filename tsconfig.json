@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "skipLibCheck": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "target": "es6",
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true
+    },
+    "lib": ["es2015"],
+    "include": ["src"]
+}
